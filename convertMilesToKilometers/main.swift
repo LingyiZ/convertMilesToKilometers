@@ -8,5 +8,11 @@
 
 import Foundation
 
-print("Hello, World!")
+func convertMilesToKilometers(miles: Double) -> Double {
+//    let kilo = miles * 1.60934
+    return miles * 1.60934
+}
+
+print(convertMilesToKilometers(miles: 85.264))
+
 
